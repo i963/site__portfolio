@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>site profile</title>
+
+	<link rel="shortcut icon" href="img/logo.jpg" type="icon/x-image">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+<div class="container">
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__menu">
+				<nav class="menu__body">
+					<ul class="menu__list">
+						<li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+						<li class="menu__item"><a id="link2" class="menu__link" href="#aboutme">About me</a></li>
+						<li class="menu__item"><a id="link3" class="menu__link" href="#myskills">Skills</a></li>
+						<li class="menu__item"><a id="link4" class="menu__link" href="#myworks">Portfolio</a></li>
+						<li class="menu__item"><a id="link5"class="menu__link" href="#contactme">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="intro">
+			<div class="intro__wrapper">
+				<div class="intro__content">
+					<div class="intro__info">
+						<div class="intro__title">Daniel<br>Geller</div>
+						<div class="intro__subtitle">UX | UI designer<br>27 years old, US</div>
+					</div>
+					<div class="intro__toggle">
+						<div class="menu__burger"><span></span></div>
+						<div class="intro__lang">
+							<a href="#" id="french-lang-link">Fr</a>
+							<a href="#" id="english-lang-link">| Eng</a>
+						</div>
+					</div>
+				</div>
+				<div class="intro__media">
+					<picture>
+						<source srcset="img/main_img.png" media="(min-width: 481px)" />
+						<source srcset="img/main_img_mobile.png" media="(max-width: 480.98px)"/>
+						<img src="img/main_img.png">
+					</picture>
+				</div>			
+			</div>
+		</section>
+	<section id="aboutme" class="about">
+		<div class="about__wrapper">
+				<div class="about__title"><h2>About me</h2></div>
+				<ul class="about__list">
+					<li class="list__item"><p>Hi, I'm Daniel - UX/UI designer from Los Angeles.</p> <p>I'm interested in design and everything connected with it.</p></li>
+					<li class="list__item"><p>I'm studying at courses</p><p>"Web and mobile design interfaces" in IT-Academy.</p></li>
+					<li class="list__item"><p>Ready to implement excellent projects</p><p> with wonderful people.</p></li>
+				</ul>
+			</div>
+		</section>
+		<section id="myskills" class="skills">
+			<div class="skills__wrapper">
+				<div class="skills__title"><h2>Skills</h2></div>
+				<div class="skills__subtitle"><p>I work in such programs as</p></div>
+				<div class="skills__box">
+					<div class="box__item">
+						<div class="item__icon"><img src="icons/icon_ps.png" alt="Just icon"></div>
+						<div class="item__text">Adobe Photoshop</div>
+						<div class="item__rate"><img src="icons/rate-four.png" alt="Rate"></div> 						
+					</div>
+					<div class="box__item">
+						<div class="item__icon"><img src="icons/icon_ai.png" alt="Just icon"></div>
+						<div class="item__text">Adobe Illustrator</div>
+						<div class="item__rate"><img src="icons/rate-three.png" alt="Rate"></div> 
+					</div>
+					<div class="box__item">
+						<div class="item__icon"><img src="icons/icon_ae.png" alt="Just icon"></div>
+						<div class="item__text">Adobe After Effects</div>
+						<div class="item__rate"><img src="icons/rate-four.png" alt="Rate"></div> 
+					</div>
+					<div class="box__item">
+						<div class="item__icon"><img src="icons/icon_figma.png" alt="Just icon"></div>
+						<div class="item__text">Figma</div>
+						<div class="item__rate"><img src="icons/rate-four.png" alt="Rate"></div> 
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="myworks" class="portfolio">
+			<div class="portfolio__wrapper">
+				<div class="portfolio__title"><h2>Portfolio</h2></div>
+				<div class="portfolio-works photo__box">
+					<div class="box__image">
+						<figure>
+							<img data-lazy="img/work1__levis.png" alt="Screen site">
+							<figcaption class="about-work"><a href="#">Online fashion store - Homepage</a></figcaption>
+						</figure>
+					</div>
+					<div class="box__image">
+						<figure>
+							<img data-lazy="img/work2__reebok.png" alt="Screen site">
+							<figcaption class="about-work"><a href="#">Reebok Store - Concept</a></figcaption>
+						</figure>
+					</div>
+					<div class="box__image">
+						<figure>
+							<img data-lazy="img/work3__braun.png" alt="Screen site">
+							<figcaption class="about-work"><a href="#">Braun Landing Page - Concept</a></figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="contactme" class="contact">
+		<div class="footer__wrapper">
+			<div class="contact__block">
+				<div class="contact__title"><h2>Contact</h2></div>
+				<div class="contact__subtitle"><p>Want to know more or just chat? <br> You are welcome!</p></div>
+				<button class="contact__button" type="submit"><span>Send message</span></button>
+				<div class="contact__smedia">
+					<a href="https://linkedin.com/" target="_blank" class="contact__icon"><img src="icons/icon_li.png" alt="Just icon"></a>						
+					<a href="https://www.instagram.com/" target="_blank" class="contact__icon"><img src="icons/icon_inst.png" alt="Just icon"></a>
+					<a href="https://www.behance.net/" target="_blank" class="contact__icon"><img src="icons/icon_be.png" alt="Just icon"></a>
+					<a href="https://dribbble.com/" target="_blank" class="contact__icon"><img src="icons/icon_drib.png" alt="Just icon"></a>
+				</div>
+				<div class="contact__text"><h3>Like me on <br> LinkedIn, Instagram, Behance, Dribble</h3></div>
+			</div>
+		</div>
+	</footer>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
