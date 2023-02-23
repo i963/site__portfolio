@@ -195,7 +195,7 @@ flex: 1 1 38.78%;
 .intro__lang{
 writing-mode: vertical-lr;
 transform: rotate(-180deg);
-overflow: auto;
+overflow: hidden;
 }
 .intro__lang a:hover{
 text-decoration: underline;
